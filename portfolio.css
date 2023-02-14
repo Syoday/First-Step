@@ -114,7 +114,8 @@ width:780px;
 }
 p.pic img{
   width:250px;
-  border-radius:150px;
+  height:250px;
+  border-radius:50%;
 }
 .career-contents{
   width:80%;
