@@ -1,0 +1,184 @@
+/* CSSのリセット（消さないでください） */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next", "Hiragino Kaku Gothic ProN W3", sans-serif;
+  background: url('back.JPG') fixed;
+  background-size: cover;
+}
+
+li {
+  list-style: none;
+}
+
+/* ここからCSSを記述してください */
+header{
+  height:90px;
+  width:100%;
+  background-color:#050811;
+  color:#fff;
+  position:fixed;
+  top:0;
+  z-index:10;
+}
+
+.header-logo{
+  float:left;
+  padding:20px 40px;
+  font-size:36px;
+  font-weight:normal;
+
+}
+
+.header-list li{
+  float:right;
+  text-align:right;
+  font-size:25px;
+  padding:30px 35px;
+}
+
+.title{
+  height:650px;
+  margin:100px 80px 0 80px;
+  text-align:center;
+  opacity:1;
+
+}
+
+.title h1{
+  padding:40px;
+  font-size:140px;
+}
+
+.title h2{
+font-size:60px;  
+}
+.title span{
+  color:#ff4a4a;
+}
+
+.about{
+  height:700px;
+  background-color:white;
+  opacity:0.5;
+}
+
+.about:hover{
+  opacity:0.8;
+  background-color:white;
+}
+.about h1{
+  text-align:center;
+  padding-top:20px;
+}
+
+.profile{
+width:780px;
+ text-align:center;
+ padding-left:350px;
+}
+
+.profile p{
+  padding:0 120px 0 100px;
+  text-align:left;
+}
+.career{
+  text-align:center;
+  height:700px;
+  background-color:rgb(99, 94, 94);
+  opacity:0.5;
+}
+
+.career:hover{
+  opacity:0.8;
+  background-color:rgb(99, 94, 94);
+
+}
+.career h1{
+  padding:20px;
+  color:white;
+}
+
+.careers{
+  float: left;
+  width: 33%;
+}
+.career-icon{
+  position: relative;
+}
+p.pic img{
+  width:250px;
+  border-radius:150px;
+}
+.career-contents{
+  width:80%;
+  display:inline block;
+  color:white;
+  text-align:left;
+  margin-top: 50px;
+  padding-left:50px;
+  font-size: 15px;
+ 
+}
+
+.works{
+height:700px;
+text-align:center;
+background-color:white;
+opacity:0.5;
+}
+.works:hover{
+  opacity:0.8;
+  background-color:white;
+}
+
+.works h1{
+  padding:20px;
+}
+
+.work{
+  float:left;
+  width:33%;
+  margin:2px;
+}
+
+.work-icon{
+  position: relative;
+}
+
+p.pho img{
+  height:250px;
+  width:300px;
+  border-radius:15px;
+}
+.work-contents{
+  width: 80%;
+  text-align:left;
+  display: inline-block;
+  margin-top: 50px;
+  font-size: 15px;
+}
+
+.contact{
+  height:650px;  
+  text-align:center;
+}
+
+.contact h2{
+  padding-top:30px;
+  padding-bottom:15px;
+  font-size:50px;
+}
+.contact h1{
+  font-size:60px;
+  padding-bottom:30px;
+}
+.contact p{
+  font-size:35px;
+}
